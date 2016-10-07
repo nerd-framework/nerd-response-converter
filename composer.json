@@ -1,0 +1,22 @@
+{
+  "name": "nerd-framework/nerd-response-converter",
+  "description": "Response Converter for Nerd Framework",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Lakhtadyr",
+      "email": "roman.lakhtadyr@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "nerd-framework/nerd-contracts": "dev-master",
+    "nerd-framework/nerd-http": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
